@@ -1,0 +1,13 @@
+element * CHECKEDOUT
+
+# u-boot
+element /vobs/wtbu/OMAPSW_L/u-boot/... ACT_LINUX-U-BOOT-FLOAT
+
+# x-load
+element /vobs/wtbu/OMAPSW_L/x-load/... LINUX-XLOAD_FLOAT_1.0
+
+# MV 2.4 kernel - CEE 7.x
+# Note: 7.x and 11.x share the same tree. They are exclusive each other.
+element /vobs/wtbu/OMAPSW_L/linux/kernel_mv/2.4_kernel-arm11/... LINUX-MV-2.4K_FLOAT_1.0
+
+element * /main/LATEST 

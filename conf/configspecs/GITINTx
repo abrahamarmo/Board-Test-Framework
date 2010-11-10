@@ -1,0 +1,5 @@
+element * CHECKEDOUT
+
+element /vobs/wtbu/CSSD_L_GIT_2.6/linux/kernel_org/linux-omap-git/... LINUX-GIT-2.6K_INT_FLOAT_3.0
+
+element * /main/LATEST

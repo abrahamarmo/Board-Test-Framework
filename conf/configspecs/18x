@@ -1,0 +1,14 @@
+element * CHECKEDOUT
+
+# u-boot
+element /vobs/wtbu/OMAPSW_L/u-boot/... ACT_LINUX-U-BOOT-FLOAT
+
+# x-load
+element /vobs/wtbu/OMAPSW_L/x-load/... LINUX-XLOAD_FLOAT_1.0
+
+# Note: 16.x/18/x and 12.x share the same tree. They are exclusive each other.
+# TI OMAP open source 2.6.14 kernel - 16.x and 18.x
+element /vobs/wtbu/OMAPSW_L/linux/kernel_org/2.6_kernel/... ACT_GIT-DPM-INTEG-18.X
+element /vobs/wtbu/OMAPSW_L/linux/kernel_org/2.6_kernel/... LINUX-GIT-2.6K_INT_FLOAT_1.0
+
+element * /main/LATEST 

@@ -1,0 +1,12 @@
+element * CHECKEDOUT
+
+# u-boot
+element /vobs/wtbu/OMAPSW_L/u-boot/... ACT_LINUX-U-BOOT-FLOAT
+
+# x-load
+element /vobs/wtbu/OMAPSW_L/x-load/... LINUX-XLOAD_FLOAT_1.0
+
+# TI OMAP open source 2.6.22 kernel - 12.x
+element /vobs/wtbu/CSSD_L_GIT_2.6/linux/kernel_org/2.6_kernel/... LINUX-GIT-2.6K_INT_FLOAT_2.0
+
+element * /main/LATEST 

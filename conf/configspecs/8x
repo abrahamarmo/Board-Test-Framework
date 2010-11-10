@@ -1,0 +1,12 @@
+element * CHECKEDOUT
+
+# u-boot
+element /vobs/wtbu/OMAPSW_L/u-boot/... ACT_LINUX-U-BOOT-FLOAT
+
+# x-load
+element /vobs/wtbu/OMAPSW_L/x-load/... LINUX-XLOAD_FLOAT_1.0
+
+# MV 2.6 kernel - ML 8.x
+element /vobs/wtbu/OMAPSW_L/linux/kernel_mv/2.6_kernel-arm11/... LINUX-ML-2.6K_FLOAT_1.0
+
+element * /main/LATEST 
